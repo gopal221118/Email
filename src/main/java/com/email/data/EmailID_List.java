@@ -24,12 +24,10 @@ public class EmailID_List {
             int rowNum = 0;
             for (Row row : sheet) {
                 Cell cell0 = row.getCell(0);
-                Cell cell1 = row.getCell(1);
 
-                if (cell0 != null && cell1 != null) {
+                if (cell0 != null) {
                     String value0 = cell0.toString();
-                    String value1 = cell1.toString();
-                    dataMap.put(rowNum, value0 + "~" + value1);
+                    dataMap.put(rowNum, value0);
                 }
                 rowNum++;
             }
