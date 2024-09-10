@@ -24,7 +24,7 @@ public class SendEmail {
         String to = "gopakbackup@gmail.com";
 
         // Sender's email ID and password
-        final String from = "digital@indiaadvocacy.com";
+        final String from = "digital@stitchie.com";
         final String password = "Advocacy@22112018s";
 
         // SMTP server information

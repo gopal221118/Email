@@ -28,5 +28,9 @@ public class Insurance_HTML {
 		}
 		return htmlContent;
 	}
+	public static void main(String args[])
+	{
+		getMailHTML("Gopal","1226767676878778","Chennai,TN-119");
+	}
 
 }
